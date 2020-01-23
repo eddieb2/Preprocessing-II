@@ -168,6 +168,40 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.navBorder {
+  border-bottom: 1px dashed gray;
+}
+.navBorder nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2% 0%;
+}
+.navBorder nav .navFlex1 {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+}
+.navBorder nav .navFlex1 h1 {
+  flex-basis: 100%;
+}
+.navBorder nav .navFlex1 a {
+  font-size: 1.5rem;
+}
+.navBorder nav .navFlex2 {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.25rem;
+}
+header {
+  margin-bottom: 2%;
+  border-bottom: 1px dashed gray;
+  padding-bottom: 1%;
+}
+header img {
+  margin-bottom: 2%;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;

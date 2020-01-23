@@ -1,1 +1,39 @@
 // Navigation Styles here
+
+.navBorder{
+  // Can't figure out how to extend this border across the whole screen
+  // without redoing the entire nav bar.
+  border-bottom: 1px dashed gray;
+  nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2% 0%;
+    .navFlex1{
+      display: flex;
+      width: 50%;
+      justify-content: flex-start;
+        h1{
+          flex-basis: 100%;
+        }
+        a{
+          font-size: 1.5rem;
+        }
+    }
+    .navFlex2{
+      display: flex;
+      width: 50%;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 1.25rem;
+    }
+  }
+}
+
+header{
+  margin-bottom: 2%;
+  border-bottom: 1px dashed gray;
+  padding-bottom: 1%;
+  img{
+    margin-bottom: 2%;
+  }
+}
