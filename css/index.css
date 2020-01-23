@@ -168,39 +168,36 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.navBorder {
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   border-bottom: 1px dashed gray;
+  padding: 1% 0%;
 }
-.navBorder nav {
+nav .navFlex {
+  max-width: 800px;
+  margin: 0% auto;
+  width: 100%;
   display: flex;
-  justify-content: flex-end;
-  padding: 2% 0%;
-}
-.navBorder nav .navFlex1 {
-  display: flex;
-  width: 50%;
   justify-content: flex-start;
 }
-.navBorder nav .navFlex1 h1 {
-  flex-basis: 100%;
-}
-.navBorder nav .navFlex1 a {
-  font-size: 1.5rem;
-}
-.navBorder nav .navFlex2 {
+nav .navFlex1 {
+  flex-basis: 25%;
   display: flex;
-  width: 50%;
-  justify-content: space-around;
+  justify-content: flex-start;
+}
+nav .navFlex2 {
+  flex-basis: 75%;
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
   font-size: 1.25rem;
 }
-header {
-  margin-bottom: 2%;
-  border-bottom: 1px dashed gray;
-  padding-bottom: 1%;
-}
-header img {
-  margin-bottom: 2%;
+nav .navFlex2 div {
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 50%;
 }
 .footer {
   width: 100%;
@@ -212,6 +209,14 @@ header img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home header {
+  margin-bottom: 2%;
+  border-bottom: 1px dashed gray;
+  padding-bottom: 1%;
+}
+.home header img {
+  margin-bottom: 2%;
 }
 .home .content-section {
   margin: 30px 0;
