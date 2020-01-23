@@ -264,3 +264,16 @@ nav .navFlex2 div {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  display: flex;
+  justify-content: flex-start;
+}
+.home .content-pick .destination .btn button {
+  width: 75%;
+  height: 4vh;
+  color: white;
+  background-color: #17A2B8;
+  border: 1px solid #17A2B8;
+  border-radius: 10px;
+  text-align: center;
+}

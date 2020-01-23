@@ -1,1 +1,10 @@
 // Mixins in here
+.createButton(@width, @height, @font-color, @background-color: @button-bg) {
+  width: @width;
+  height: @height;
+  color: @font-color;
+  background-color: @background-color;
+  border: 1px solid @button-bg;
+  border-radius: 10px;
+  text-align: center;
+}
