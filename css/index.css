@@ -243,6 +243,11 @@ nav .navFlex2 div {
     padding: 0% 4%;
   }
 }
+@media (max-width:850px) {
+  .home {
+    padding: 0% 4%;
+  }
+}
 .home header {
   margin-bottom: 2%;
   border-bottom: 1px dashed gray;
