@@ -182,7 +182,7 @@ nav .navFlex {
   display: flex;
   justify-content: flex-start;
 }
-@media (max-width:500px) {
+@media (max-width:570px) {
   nav .navFlex {
     flex-wrap: wrap;
   }
@@ -192,13 +192,13 @@ nav .navFlex1 {
   display: flex;
   justify-content: flex-start;
 }
-@media (max-width:500px) {
+@media (max-width:570px) {
   nav .navFlex1 {
     flex-basis: 100%;
     justify-content: center;
   }
 }
-@media (max-width:500px) {
+@media (max-width:570px) {
   nav .navFlex1 h1 {
     padding-bottom: 2%;
   }
@@ -210,7 +210,7 @@ nav .navFlex2 {
   align-items: center;
   font-size: 1.25rem;
 }
-@media (max-width:500px) {
+@media (max-width:570px) {
   nav .navFlex2 {
     flex-basis: 100%;
     justify-content: space-around;
@@ -221,7 +221,7 @@ nav .navFlex2 div {
   justify-content: space-around;
   flex-basis: 50%;
 }
-@media (max-width:500px) {
+@media (max-width:570px) {
   nav .navFlex2 div {
     flex-basis: 100%;
     font-size: 1.8rem;
@@ -238,7 +238,7 @@ nav .navFlex2 div {
   font-size: 1.6rem;
   padding: 20px;
 }
-@media (max-width:500px) {
+@media (max-width:570px) {
   .home {
     padding: 0% 4%;
   }
@@ -262,7 +262,7 @@ nav .navFlex2 div {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-@media (max-width:500px) {
+@media (max-width:570px) {
   .home .content-section div {
     flex-basis: 100%;
   }
@@ -278,7 +278,7 @@ nav .navFlex2 div {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
-@media (max-width:500px) {
+@media (max-width:570px) {
   .home .content-section .img-content img {
     width: 100%;
   }
@@ -287,7 +287,7 @@ nav .navFlex2 div {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
-@media (max-width:500px) {
+@media (max-width:570px) {
   .home .inverse-content {
     flex-direction: column-reverse;
   }
@@ -296,7 +296,7 @@ nav .navFlex2 div {
   padding-left: 1%;
   padding-right: 0;
 }
-@media (max-width:500px) {
+@media (max-width:570px) {
   .home .inverse-content .text-content {
     width: 100%;
   }
@@ -305,7 +305,7 @@ nav .navFlex2 div {
   padding-right: 1%;
   padding-left: 0;
 }
-@media (max-width:500px) {
+@media (max-width:570px) {
   .home .inverse-content .img-content {
     width: 100%;
   }
@@ -314,7 +314,7 @@ nav .navFlex2 div {
   width: 75%;
   margin: 0 auto 30px;
 }
-@media (max-width:500px) {
+@media (max-width:570px) {
   .home .content-destination {
     width: 100%;
   }
@@ -328,7 +328,7 @@ nav .navFlex2 div {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width:500px) {
+@media (max-width:570px) {
   .home .content-pick {
     flex-direction: column;
   }
@@ -337,10 +337,15 @@ nav .navFlex2 div {
   width: 30%;
   margin-bottom: 30px;
 }
-@media (max-width:500px) {
+@media (max-width:570px) {
   .home .content-pick .destination {
     width: 100%;
     padding: 0% 5%;
+  }
+}
+@media (max-width:700px) {
+  .home .content-pick .destination p {
+    font-size: 1.4rem;
   }
 }
 .home .content-pick .destination .btn {
@@ -356,7 +361,7 @@ nav .navFlex2 div {
   border-radius: 10px;
   text-align: center;
 }
-@media (max-width:500px) {
+@media (max-width:570px) {
   .home .content-pick .destination .btn button {
     width: 100%;
   }
